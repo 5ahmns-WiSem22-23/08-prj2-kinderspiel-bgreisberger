@@ -10,7 +10,11 @@ Große  Aufregung  im  Fluss:  Die  beiden  Fischer  Fritz  und  Frieda  möchte
 Der  Farbwürfel  bestimmt,  ob  das  Boot  oder  die  Fische  ziehen dürfen. Sind am Ende mehr Fische im Meer, ge-winnen  die  Fisch-Freunde.  Haben  die  Fischer  mehr  als  zwei Fische gefangen, gewinnen die Fischer-Fans.
 
 ### Ende des Spiels:
-Es gibt mehrere Möglichkeiten, das Spiel zu beenden: 1.Alle  Fische  erreichen  das  Meer.  Die  Fisch-Freunde        gewinnen. 2.Alle  Fische  werden  gefangen.  Die  Fischer-Fans  ge-      winnen. 3.Das Boot erreicht das Meer, weil das letzte Flussteil        entfernt   wurde.   Da   es   nicht   meerestauglich   ist,         müssen  sich  die  Fischer  mit  den  bis  dahin  gefange-     nen Fischen zufrieden geben.    Wenn ihr zu den Fischen gehalten habt, gewinnt ihr,   wenn sich mehr Fische ins Meer retten konnten.       Wenn  ihr  auf  die  Fischer  getippt  habt,  gewinnt  ihr,         wenn   mehr   Fische   gefangen   wurden.   Bei   genau    zwei gefangenen Fischen geht das Spiel unentschie-      den   aus.       Was passiert wohl beim nächsten Wett-Schwimmen      im   Fluss?
+Es gibt mehrere Möglichkeiten, das Spiel zu beenden: 
+1.Alle  Fische  erreichen  das  Meer.  Die  Fisch-Freunde gewinnen. 
+2.Alle  Fische  werden  gefangen.  Die  Fischer-Fans  gewinnen. 
+3.Das Boot erreicht das Meer, weil das letzte Flussteil entfernt wurde. Da es nicht meerestauglich ist,         müssen  sich  die  Fischer  mit  den  bis  dahin  gefangenen Fischen zufrieden geben. Wenn ihr zu den Fischen gehalten habt, gewinnt ihr, wenn sich mehr Fische ins Meer retten konnten. Wenn  ihr  auf  die  Fischer  getippt  habt, gewinnt  ihr, wenn   mehr   Fische   gefangen   wurden.   Bei genau zwei gefangenen Fischen geht das Spiel unentschieden aus. 
+Was passiert wohl beim nächsten Wett-Schwimmen im Fluss?
 
 ### Screenshots:
 
