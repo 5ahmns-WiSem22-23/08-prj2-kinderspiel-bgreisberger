@@ -2,30 +2,58 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject roterfisch;
-    public GameObject orangerfisch;
-    public GameObject permagelberfisch;
-    public GameObject gelberfisch;
+    public GameObject fischrot;
+    public GameObject fischorange;
+    public GameObject fischpermagelb;
+    public GameObject fischgelb;
     public GameObject boot;
 
-    public void RotMove()
+    private int Würfel;
+
+    void Start()
     {
-        roterfisch.transform.position += new Vector3(1, 0, 0);
+        Würfel = 0;
     }
 
-    public void OrangeMove()
-    { 
-        orangerfisch.transform.position += new Vector3(1, 0, 0);
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Würfeln();
+        }
     }
 
-    public void PermaGelbMove()
+    void Würfeln()
     {
-        permagelberfisch.transform.position += new Vector3(1, 0, 0);
+        Würfel = Random.Range(1, 7); // Würfelwert zwischen 1 und 6
+
+        Debug.Log("Würfel: " + Würfel);
+
+        if (Würfel >= 1 && Würfel <= 4)
+        {
+            if (Würfel == 1)
+            {
+                fischrot.transform.position += new Vector3(1, 0, 0);
+            }
+            else if (Würfel == 2)
+            {
+                fischorange.transform.position += new Vector3(1, 0, 0);
+            }
+            else if (Würfel == 3)
+            {
+                fischpermagelb.transform.position += new Vector3(1, 0, 0);
+            }
+            else if (Würfel == 4)
+            {
+                fischgelb.transform.position += new Vector3(1, 0, 0);
+            }
+        }
+        else if (Würfel == 5 || Würfel == 6)
+        {
+            boot.transform.position += new Vector3(1, 0, 0);
+        }
     }
 
-    public void GelbMove()
-    {
-        gelberfisch.transform.position += new Vector3(1, 0, 0);
-    }
+
 }
 

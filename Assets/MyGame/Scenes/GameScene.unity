@@ -307,7 +307,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 862c2efc8639a47498f5c430c3dc026b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 23b3317fdee7f46b182a0ec8b0ed6e48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -327,7 +327,7 @@ Transform:
   m_GameObject: {fileID: 169431174}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -62.99996, y: 34.29, z: -6551.78}
-  m_LocalScale: {x: 2.0019333, y: 2.0019333, z: 40.038666}
+  m_LocalScale: {x: 1, y: 1, z: 40.038666}
   m_Children: []
   m_Father: {fileID: 1761685477}
   m_RootOrder: 2
@@ -389,7 +389,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: f31453734c6814407b2da4995daaf823, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 691ecfadaf0f5418aabcd743b491c213, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -409,7 +409,7 @@ Transform:
   m_GameObject: {fileID: 317021842}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -62.99996, y: -85.15, z: -6551.78}
-  m_LocalScale: {x: 2.0019333, y: 2.0019333, z: 40.038666}
+  m_LocalScale: {x: 1, y: 1, z: 40.038666}
   m_Children: []
   m_Father: {fileID: 1761685477}
   m_RootOrder: 4
@@ -620,7 +620,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 0239463d86f814be486083eccbfbfabf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 06425c577ed964f6d80ef51ffdeb66c3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -640,7 +640,7 @@ Transform:
   m_GameObject: {fileID: 567737685}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -63, y: 94, z: -6551.78}
-  m_LocalScale: {x: 2.0019333, y: 2.0019333, z: 2.0019333}
+  m_LocalScale: {x: 1, y: 1, z: 2.0019333}
   m_Children: []
   m_Father: {fileID: 1761685477}
   m_RootOrder: 1
@@ -702,7 +702,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: e3a54dd5e9dbd4723be1bdcb65a0b5b5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ab623f9905d8040ceb9920d93dc3422d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -722,7 +722,7 @@ Transform:
   m_GameObject: {fileID: 668537999}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -62.99996, y: -25.43, z: -6551.78}
-  m_LocalScale: {x: 2.0019333, y: 2.0019333, z: 40.038666}
+  m_LocalScale: {x: 1, y: 1, z: 40.038666}
   m_Children: []
   m_Father: {fileID: 1761685477}
   m_RootOrder: 3
@@ -803,8 +803,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686661060}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.84, y: -2.19, z: -3939.401}
-  m_LocalScale: {x: 12.085798, y: 11.964978, z: 11.217086}
+  m_LocalPosition: {x: -6, y: -5, z: -3939.401}
+  m_LocalScale: {x: 14.565804, y: 14.420192, z: 13.518831}
   m_Children: []
   m_Father: {fileID: 1761685477}
   m_RootOrder: 5
@@ -836,7 +836,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9607e0178a07b44fdb4abedb79186551, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b4864722411b74e01b1905fb41571d5d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.611
   m_Pitch: 1
@@ -1013,7 +1013,7 @@ Transform:
   m_GameObject: {fileID: 1472299791}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -394, y: 2, z: -6551.78}
-  m_LocalScale: {x: 3.700814, y: 3.700814, z: 3.700814}
+  m_LocalScale: {x: 3, y: 3, z: 3.700814}
   m_Children: []
   m_Father: {fileID: 1761685477}
   m_RootOrder: 0
@@ -1061,10 +1061,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3498ed4eb0643d9b4110134f6c9de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roterfisch: {fileID: 317021842}
-  orangerfisch: {fileID: 668537999}
-  permagelberfisch: {fileID: 169431174}
-  gelberfisch: {fileID: 169431174}
+  fischrot: {fileID: 317021842}
+  fischorange: {fileID: 668537999}
+  fischpermagelb: {fileID: 169431174}
+  fischgelb: {fileID: 567737685}
   boot: {fileID: 1472299791}
 --- !u!1 &1761685473
 GameObject:
@@ -1117,7 +1117,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 960, y: 600}
+  m_ReferenceResolution: {x: 900, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
