@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MyGame/Scenes/GameScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/MyGame/Scenes/EndeFischScene.unity
+    guid: 040ef335b9cb44c439bcdf2271b405cd
+  - enabled: 1
+    path: Assets/MyGame/Scenes/EndeBootScene.unity
+    guid: 2f1ea326892344dc4b71857f0c0ae29c
   m_configObjects: {}

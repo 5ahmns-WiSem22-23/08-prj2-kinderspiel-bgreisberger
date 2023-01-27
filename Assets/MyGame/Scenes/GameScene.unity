@@ -1061,10 +1061,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3498ed4eb0643d9b4110134f6c9de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fischrot: {fileID: 317021842}
+  "fischgr\xFCn": {fileID: 567737685}
+  fischlila: {fileID: 169431174}
   fischorange: {fileID: 668537999}
-  fischpermagelb: {fileID: 169431174}
-  fischgelb: {fileID: 567737685}
+  fischrot: {fileID: 317021842}
   boot: {fileID: 1472299791}
 --- !u!1 &1761685473
 GameObject:
