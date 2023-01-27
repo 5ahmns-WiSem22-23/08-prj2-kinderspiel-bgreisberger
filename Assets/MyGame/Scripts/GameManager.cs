@@ -33,31 +33,31 @@ public class GameManager : MonoBehaviour
         {
             Würfeln();
         }
-        if (Intgrün == 8)
+        if (Intgrün == 6)
         {
             Debug.Log("Ende Fische");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
-        else if (Intlila == 8)
+        else if (Intlila == 6)
         {
             Debug.Log("Ende Fische");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
-        else if (Intorange == 8)
+        else if (Intorange == 6)
         {
             Debug.Log("Ende Fische");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
-        else if (Introt == 8)
+        else if (Introt == 6)
         {
             Debug.Log("Ende Fische");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
-        else if (Intboot == 8)
+        else if (Intboot == 6)
         {
             Debug.Log("Ende Boot");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
