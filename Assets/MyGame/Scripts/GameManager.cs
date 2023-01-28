@@ -13,7 +13,9 @@ public class GameManager : MonoBehaviour
     private int Intlila;
     private int Intorange;
     private int Introt;
-    private int Intboot; 
+    private int Intboot;
+
+    private int x;
 
     private int Würfel;
 
@@ -24,7 +26,7 @@ public class GameManager : MonoBehaviour
         Intlila = 0;
         Intorange = 0;
         Introt = 0;
-        Intboot = 0;
+        Intboot = -3;
     }
 
     public void Update()
@@ -33,33 +35,70 @@ public class GameManager : MonoBehaviour
         {
             Würfeln();
         }
-        if (Intgrün == 6)
+
+        // Fisch win
+        if (Intgrün >= 5 && Intlila >= 5 || Intgrün >= 5 && Intorange >= 5 || Intgrün >= 5 && Introt >= 5)
+        {
+            Debug.Log("Ende Fische");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else if (Intlila >= 5 && Intgrün >= 5 || Intlila >= 5 && Intorange >= 5 || Intlila > 6 && Introt >= 5)
+        {
+            Debug.Log("Ende Fische");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else if (Intorange >= 5 && Intgrün >= 5 || Intorange >= 5 && Intlila >= 5 || Intorange >= 5 && Introt >= 5)
+        {
+            Debug.Log("Ende Fische");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else if (Introt >= 5 && Intgrün >= 5 || Introt >= 5 && Intlila >= 5 || Introt >= 5 && Intorange >= 5)
         {
             Debug.Log("Ende Fische");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
-        else if (Intlila == 6)
+        // Boot Catch
+        if (Intboot == Intgrün )
         {
-            Debug.Log("Ende Fische");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            Debug.Log("Grün gefangen");
+            Destroy(fischgrün);
+        }
+        if (Intboot == Intlila)
+        {
+            Debug.Log("Lila gefangen");
+            Destroy(fischlila);
+        }
+        if (Intboot == Intorange)
+        {
+            Debug.Log("Orange gefangen");
+            Destroy(fischorange);
+        }
+        if (Intboot == Introt)
+        {
+            Debug.Log("Rot gefangen");
+            Destroy(fischrot);
         }
 
-        else if (Intorange == 6)
+        // Boot Win
+        if(fischgrün ==false && fischlila == false || fischgrün == false && fischorange == false || fischgrün == false && fischrot == false)
         {
-            Debug.Log("Ende Fische");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            Debug.Log("Boot Gewinnt");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         }
-
-        else if (Introt == 6)
+        if (fischlila == false && fischgrün == false || fischlila == false && fischorange == false || fischlila == false && fischrot == false)
         {
-            Debug.Log("Ende Fische");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            Debug.Log("Boot Gewinnt");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         }
-
-        else if (Intboot == 6)
+        if (fischorange == false && fischgrün == false || fischorange == false && fischlila == false || fischorange == false && fischrot == false)
         {
-            Debug.Log("Ende Boot");
+            Debug.Log("Boot Gewinnt");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        }
+        if (fischrot == false && fischgrün == false || fischrot == false && fischlila == false || fischrot == false && fischorange == false)
+        {
+            Debug.Log("Boot Gewinnt");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         }
     }
@@ -72,36 +111,75 @@ public class GameManager : MonoBehaviour
 
         if (Würfel >= 1 && Würfel <= 4)
         {
+
             if (Würfel == 1)
             {
-                fischgrün.transform.position += new Vector3(1, 0, 0);
-                Intgrün++;
-                Debug.Log(Intgrün);
+                if (fischgrün == true)
+                {
+                    fischgrün.transform.position += new Vector3(1, 0, 0);
+                    Intgrün++;
+                    Debug.Log("Grün = " + Intgrün);
+                }
+
+                else if (fischorange == false)
+                {
+                    boot.transform.position += new Vector3(1, 0, 0);
+                    Intboot++;
+                    Debug.Log("Boot = " + Intboot);
+                }
             }
             else if (Würfel == 2)
             {
-                fischlila.transform.position += new Vector3(1, 0, 0);
-                Intlila++;
-                Debug.Log(Intlila);
+                if (fischlila == true)
+                {
+                    fischlila.transform.position += new Vector3(1, 0, 0);
+                    Intlila++;
+                    Debug.Log("Lila = " + Intlila);
+                }
+                else if (fischlila == false)
+                {
+                    boot.transform.position += new Vector3(1, 0, 0);
+                    Intboot++;
+                    Debug.Log("Boot = " + Intboot);
+                }
             }
             else if (Würfel == 3)
             {
-                fischorange.transform.position += new Vector3(1, 0, 0);
-                Intorange++;
-                Debug.Log(Intorange);
+                if (fischorange == true)
+                {
+                    fischorange.transform.position += new Vector3(1, 0, 0);
+                    Intorange++;
+                    Debug.Log("Orange = " + Intorange);
+                }
+                else if (fischorange == false)
+                    {
+                    boot.transform.position += new Vector3(1, 0, 0);
+                    Intboot++;
+                    Debug.Log("Boot = " + Intboot);
+                }
+                
             }
             else if (Würfel == 4)
             {
-                fischrot.transform.position += new Vector3(1, 0, 0);
-                Introt++;
-                Debug.Log(Introt);
+                if (fischrot == true)
+                {
+                    fischrot.transform.position += new Vector3(1, 0, 0);
+                    Introt++;
+                    Debug.Log("Rot = " + Introt);
+                }
+                else if (fischrot == false)
+                {
+                    boot.transform.position += new Vector3(1, 0, 0);
+                    Intboot++;
+                    Debug.Log("Boot = " + Intboot);
+                }
             }
         }
         else if (Würfel == 5 || Würfel == 6)
         {
             boot.transform.position += new Vector3(1, 0, 0);
             Intboot++;
-            Debug.Log(Intboot);
+            Debug.Log("Boot = " + Intboot);
         }
     }
 
