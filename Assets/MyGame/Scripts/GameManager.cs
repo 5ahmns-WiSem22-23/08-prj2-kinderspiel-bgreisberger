@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
         Intlila = 0;
         Intorange = 0;
         Introt = 0;
-        Intboot = -3;
+        Intboot = -5;
     }
 
     public void Update()
@@ -37,22 +37,22 @@ public class GameManager : MonoBehaviour
         }
 
         // Fisch win
-        if (Intgrün >= 5 && Intlila >= 5 || Intgrün >= 5 && Intorange >= 5 || Intgrün >= 5 && Introt >= 5)
+        if (Intgrün >= 7 && Intlila >= 7 || Intgrün >= 5 && Intorange >= 7 || Intgrün >= 5 && Introt >= 7)
         {
             Debug.Log("Ende Fische");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-        else if (Intlila >= 5 && Intgrün >= 5 || Intlila >= 5 && Intorange >= 5 || Intlila > 6 && Introt >= 5)
+        else if (Intlila >= 7 && Intgrün >= 7 || Intlila >= 5 && Intorange >= 7 || Intlila > 6 && Introt >= 7)
         {
             Debug.Log("Ende Fische");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-        else if (Intorange >= 5 && Intgrün >= 5 || Intorange >= 5 && Intlila >= 5 || Intorange >= 5 && Introt >= 5)
+        else if (Intorange >= 7 && Intgrün >= 7 || Intorange >= 5 && Intlila >= 7 || Intorange >= 5 && Introt >= 7)
         {
             Debug.Log("Ende Fische");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-        else if (Introt >= 5 && Intgrün >= 5 || Introt >= 5 && Intlila >= 5 || Introt >= 5 && Intorange >= 5)
+        else if (Introt >= 7 && Intgrün >= 7 || Introt >= 7 && Intlila >= 7 || Introt >= 7  && Intorange >= 7)
         {
             Debug.Log("Ende Fische");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
