@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MyGame/Scenes/EndeBootScene.unity
     guid: 2f1ea326892344dc4b71857f0c0ae29c
+  - enabled: 1
+    path: Assets/MyGame/Scenes/EndeGleich.unity
+    guid: 20dab3313954a4408a1b15f735ace986
   m_configObjects: {}
