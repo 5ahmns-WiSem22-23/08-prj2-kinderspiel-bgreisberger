@@ -28,4 +28,10 @@ Was passiert wohl beim nächsten Wett-Schwimmen im Fluss?
 ## Entwicklungsplattform: 
 MacOS, Unity 2020.3.18f1, Visual Studio 2019
 
+## Limitations:
+Problem with WebGL Build
+<img width="1363" alt="Bildschirm­foto 2023-02-01 um 07 57 13" src="https://user-images.githubusercontent.com/72389948/215973289-2acf4dd5-b5b1-415e-9918-208d84277cca.png"> 
+ 
+
+
 Copyright by Benedikt Greisberger
