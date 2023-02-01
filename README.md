@@ -18,7 +18,7 @@ Es gibt mehrere Möglichkeiten, das Spiel zu beenden:
 Was passiert wohl beim nächsten Wett-Schwimmen im Fluss?
 
 ### Screenshots:
-![Background3](https://user-images.githubusercontent.com/72389948/215319592-6b9e5667-12ef-4628-ad3f-a2d0b4d5ab64.jpeg)
+![Background2](https://user-images.githubusercontent.com/72389948/216043371-5389b3dc-743e-456f-8a0b-99da3930e49a.jpeg)
 
 ![Bildschirm­foto 2023-01-29 um 11 12 46](https://user-images.githubusercontent.com/72389948/215319550-f3249abc-abe4-47f7-b17d-f7c3f34276ee.png)
 
